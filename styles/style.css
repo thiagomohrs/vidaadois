@@ -1,0 +1,39 @@
+usuario-nav{
+    position: relative;
+    width: 100%;
+}
+
+wrapper-content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; 
+}
+
+.splash{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.gradient-splash{
+    position: absolute;
+    top: -5;
+    height: 50%;
+    width: 80%;
+    left: 10%;
+    background: linear-gradient(to left, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.content-splash{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    transform: translateY(50%);
+}
