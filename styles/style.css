@@ -1,6 +1,7 @@
 .usuario-nav{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .wrapper-content{
@@ -20,7 +21,34 @@
     text-align: center;
 }
 
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 300%;
+    left: 0;
+    text-align: center;
+}
+
+.slipper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 150%;
+    left: 0;
+    text-align: center; 
+}
+
 .gradient-splash{
+    position: absolute;
+    top: -5;
+    height: 50%;
+    width: 80%;
+    left: 10%;
+    background: linear-gradient(to left, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.gradient-footer{
     position: absolute;
     top: -5;
     height: 50%;
@@ -41,4 +69,11 @@
 .content-intro{
     position: relative;
     text-align: center;
+}
+
+#vdimagemprincipal{
+    position: relative;
+    height: 60%;
+    width: 60%;
+    top: 10%;
 }
